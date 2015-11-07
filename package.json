@@ -1,0 +1,5 @@
+{
+  "dependencies": {
+    "algorithmia": "^0.2.1"
+  }
+}
