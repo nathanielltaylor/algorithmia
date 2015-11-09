@@ -15,3 +15,5 @@ Testing out some of Algorithmia's most popular offerings for my own future use. 
 - GitHub Autotagging: An interesting, high-level way to think about the big ideas behind a given git repo. The tags returned are definitely suitable, and could, with some human editing, make for a good categorization system.
 
 - Summarizer: Works very well. There does not seem to be any documentation on how this algorithm is implemented, but based on results I would guess that it has something to do with taking the first and last few sentences of each paragraph, checking them for keywords, and keeping the sentence if they are found. May try to replicate this. Would be very useful for thumbnail summaries of articles on something like a news aggregator site.
+
+- URL 2 Text: A quick, easy, and effective scraping tool.

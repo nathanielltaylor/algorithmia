@@ -2,9 +2,9 @@ var algorithmia = require("algorithmia");
 var fs = require('fs');
 
 var client = algorithmia(process.env.ALGORITHMIA_API_KEY);
-var candidates = fs.readFileSync('articles/candidates.txt').toString();
-var isis = fs.readFileSync('articles/isis.txt').toString();
-var football = fs.readFileSync('articles/football.txt').toString();
+var candidates = fs.readFileSync('/articles/candidates.txt').toString();
+var isis = fs.readFileSync('/articles/isis.txt').toString();
+var football = fs.readFileSync('/articles/football.txt').toString();
 var articles = [candidates, isis, football];
 
 for (var i = 0; i <= articles.length; i++) {
